@@ -1,6 +1,6 @@
 <?php namespace SleepingOwl\Admin\Http\Middleware;
 
-use AdminAuth;
+//use AdminAuth;
 use Closure;
 
 class Authenticate
@@ -15,7 +15,7 @@ class Authenticate
 	 */
 	public function handle($request, Closure $next)
 	{
-		if (AdminAuth::guest())
+		if (!\Sentry::check())
 		{
 			if ($request->ajax())
 			{
