@@ -5,10 +5,12 @@ return [
 	'auth'     => [
 		'title'          => 'Authorization',
 		'username'       => 'Username',
+		'email'          => 'E-Mail',
 		'password'       => 'Password',
 		'login'          => 'Login',
 		'logout'         => 'Logout',
 		'wrong-username' => 'Wrong username',
+		'wrong-email' 	=> 'Wrong E-Mail',
 		'wrong-password' => 'or password'
 	],
 	'ckeditor' => [
