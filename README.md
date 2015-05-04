@@ -1,5 +1,9 @@
 ## Laravel 5 Admin Module
 
+Includes the AdminLTE Theme and sentry by default.
+
+It includes also some code changes to use sentry.
+
 [![Latest Stable Version](https://poser.pugx.org/sleeping-owl/admin/v/stable.svg)](https://packagist.org/packages/sleeping-owl/admin)
 [![License](https://poser.pugx.org/sleeping-owl/admin/license.svg)](https://packagist.org/packages/sleeping-owl/admin)
 

@@ -1,5 +1,5 @@
 {
-	"name": "sleeping-owl/admin",
+	"name": "Pseudoagentur/SleepingOwl-Admin-Sentry-AdminLTE",
 	"description": "Aministrative interface builder for Laravel.",
 	"homepage": "http://sleeping-owl.github.io",
 	"keywords": [
@@ -13,12 +13,18 @@
 		{
 			"name": "Sleeping Owl",
 			"email": "owl.sleeping@yahoo.com"
+		},
+		{
+			"name": "Pseudoagentur",
+			"email": "hello@pseudoagentur.de"
 		}
 	],
 	"require": {
 		"php": ">=5.4.0",
 		"illuminate/support": "5.*",
-		"doctrine/dbal": "~2.3"
+		"doctrine/dbal": "~2.3",
+		"sleeping-owl/admin-lte-template": "dev-master",
+		"cartalyst/sentry": "dev-feature/laravel-5"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.*",
