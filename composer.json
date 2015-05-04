@@ -23,7 +23,6 @@
 		"php": ">=5.4.0",
 		"illuminate/support": "5.*",
 		"doctrine/dbal": "~2.3",
-		"sleeping-owl/admin-lte-template": "dev-master",
 		"cartalyst/sentry": "dev-feature/laravel-5"
 	},
 	"require-dev": {

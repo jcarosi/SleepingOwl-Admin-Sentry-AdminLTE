@@ -3,7 +3,7 @@
 		@if ($movableUp)
 			<form action="{{ $moveUpUrl }}" method="POST" style="display:inline-block;">
 				<input type="hidden" name="_token" value="{{ csrf_token() }}" />
-				<button class="btn btn-default btn-sm" data-toggle="tooltip" title="{{ trans('admin::lang.table.moveUp') }}">
+				<button class="btn btn-default btn-sm flat" data-toggle="tooltip" title="{{ trans('admin::lang.table.moveUp') }}">
 					&uarr;
 				</button>
 			</form>
@@ -11,7 +11,7 @@
 		@if ($movableDown)
 			<form action="{{ $moveDownUrl }}" method="POST" style="display:inline-block;">
 				<input type="hidden" name="_token" value="{{ csrf_token() }}" />
-				<button class="btn btn-default btn-sm" data-toggle="tooltip" title="{{ trans('admin::lang.table.moveDown') }}">
+				<button class="btn btn-default btn-sm flat" data-toggle="tooltip" title="{{ trans('admin::lang.table.moveDown') }}">
 					&darr;
 				</button>
 			</form>

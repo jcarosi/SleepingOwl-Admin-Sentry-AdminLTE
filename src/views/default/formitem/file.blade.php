@@ -12,8 +12,8 @@
 			</div>
 		</div>
 		<div>
-			<div class="btn btn-primary imageBrowse"><i class="fa fa-upload"></i> {{ trans('admin::lang.file.browse') }}</div>
-			<div class="btn btn-danger imageRemove"><i class="fa fa-times"></i> {{ trans('admin::lang.file.remove') }}</div>
+			<div class="btn btn-primary imageBrowse flat"><i class="fa fa-upload"></i> {{ trans('admin::lang.file.browse') }}</div>
+			<div class="btn btn-danger imageRemove flat"><i class="fa fa-times"></i> {{ trans('admin::lang.file.remove') }}</div>
 		</div>
 		<input name="{{ $name }}" class="imageValue" type="hidden" value="{{ $value }}">
 		<div class="errors">

@@ -1,12 +1,12 @@
-<li>
+<li {!! (count($items) > 0) ? 'class="treeview"' : '' !!}>
 	<a href="{{ $url }}">
 		<i class="fa fa-fw {{ $icon }}"></i> {{ $label }}
 		@if (count($items) > 0)
-			<span class="fa arrow"></span>
+			<i class="fa fa-angle-left pull-right"></i>
 		@endif
 	</a>
 	@if (count($items) > 0)
-		<ul class="nav {{ array_get(['', 'nav-second-level', 'nav-third-level'], $level) }} collapse">
+		<ul class="treeview-menu">
 			@foreach ($items as $item)
 				{!! $item !!}
 			@endforeach
